@@ -100,7 +100,7 @@ $counter = 1;
 									<td><?php echo $rs['finish_setup']; ?></td>
 									<td><?php echo $rs['start_test']; ?></td>
 									<td>
-										<a href="../process/hapus_record_setup.php?id=<?php echo $rs['id']; ?>" class="btn btn-xs btn-danger"><span class="glyphicon glyphicon-trash"></span></a>
+										<button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#myModal">Hapus</button>
 									</td>
 								</tr>
 							<?php endforeach; ?>
@@ -111,6 +111,24 @@ $counter = 1;
 			</div>
 		</div>
 	</div>
+	<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Apakah kamu yakin untuk menghapus?</p>
+      </div>
+      <div class="modal-footer">
+        <button onclick="location.href='../process/hapus_record_setup.php?id=<?php echo $rs['id']; ?>'" type="button" class="btn btn-danger" data-dismiss="modal">Hapus</button>
+		<button type="button" class="btn btn-dark" data-dismiss="modal">Kembali</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </body>
 
 </html>
