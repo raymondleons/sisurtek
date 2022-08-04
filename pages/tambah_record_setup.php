@@ -45,13 +45,16 @@ $counter = 1;
 											<label><input type="radio" name="test_type" value="FCT">FCT</label>
 										</div>
 										<div class="radio">
+											<label><input type="radio" name="test_type" value="FCT1">FCT1</label>
+										</div>
+										<div class="radio">
 											<label><input type="radio" name="test_type" value="FCT2">FCT2</label>
 										</div>
 										<div class="radio">
 											<label><input type="radio" name="test_type" value="FQC">FQC</label>
 										</div>
 										<div class="radio">
-											<label><input type="radio" name="test_type" value="on board programming">OBP</label>
+											<label><input type="radio" name="test_type" value="OBP">OBP</label>
 										</div>
 									</div>
 								</div>
@@ -80,13 +83,13 @@ $counter = 1;
 									<div class="form-group row">
 										<label class="col-md-3" for="wo_no">WO #</label>
 										<div class="col-md-9">
-											<input type="text" name="wo_no" class="form-control" id="wo_no" required>
+											<input type="number" name="wo_no" class="form-control" id="wo_no" required>
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-md-3" for="wo_qty">WO Qty</label>
 										<div class="col-md-9">
-											<input type="text" name="wo_qty" class="form-control" id="wo_qty" required>
+											<input type="number" name="wo_qty" class="form-control" id="wo_qty" required>
 										</div>
 									</div>
 									<div class="form-group row">
