@@ -52,9 +52,6 @@
 								<li class="list-group-item list-group-item-success">
 									<a href="search_record_tester_down.php">Search Record Tester Down</a>
 								</li>
-								<li class="list-group-item list-group-item-success">
-									<a href="corrective_action_down.php">Corrective Action Down</a>
-								</li>
 							</ul>
 						</div>
 					</div>
