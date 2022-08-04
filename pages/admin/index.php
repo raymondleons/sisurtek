@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'koneksi.php' ?>
-<!-- <?php include 'session.php' ?> -->
+<?php include 'session.php' ?>
 <?php include 'level.php' ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
